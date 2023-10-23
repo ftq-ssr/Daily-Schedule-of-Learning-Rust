@@ -1,1 +1,257 @@
 
+# 2023 Daily schedule of OS Tranining Camp
+
+## Day 0 2023/10/8
+
+### OS Tranining Camp
+
+  在前几天朋友推荐下报名了这个训练营，虽然了解的不多但还是充满期待的。看了下课程安排，需要学习内容的有Rust语言，RISC-V架构，操作系统课程，这对于我来说无疑是极好的，虽然我是本科是学电子的，但还是对计算机很感兴趣。
+  这天晚上各位老师通过直播给我们讲解了关于这个训练营的报名情况和主要内容，还有后续的项目等信息。
+
+## Day 1 2023/10/9
+
+### Start Rust Learning
+
+  一整个白天都在配置rust的环境，以前并没有怎么接触太多github和linux上的操作，导致浪费了很多时间，不过最后还是在上课前完成了环境的配置。
+  然后晚上就开始听直播课老师的讲解，了解了最基础的一些rust基本语法和变量类型。听完后我就开始看[Rust语言圣经](https://course.rs/about-book.html),对数值类型，函数还有所有权等加深了理解，引用借用这些看似很像c++里面的指针，但还是有些区别的，后续的元组枚举这些也是没怎么用过的东西，看完后就开始做题，前面的题目大部分还是一眼就能看出来题目要求的，所以进度还是很快的。
+
+### OS Learning
+
+今天学习了操作系统的基本概念，大概了解了操作系统的需求和我们为什么要学习操作系统，后半段学习了操作系统的历史。十分风趣幽默，知识也是易于接受，了解到了我们要学习的东西，即kernel。
+操作系统的核心特征就是并发性，这也是我们需要首要实现和解决的点，为后续实现功能打好基础，之后动手搭建环境，用的是github classroom，完成简单的程序员简单操作hello,world!。
+
+### Rust Learning
+
+继续了rust基础阶段的学习，认识了
+
+- 所有权(引用借用，slice类型)
+- 结构体相关知识
+- 枚举和模式匹配
+- 使用包
+- 集合
+- 错误处理
+- 泛型、trait 和生命周期
+
+- 具体内容参考今日笔记文档[Day2](daily_study/day2_os-Learning.md)
+
+编程练习题 ： 
+
+[Small exercises to get you used to reading and writing Rust code!](os2022/my-rustlings/README.md)
+
+完成了：
+
+- variables
+- if
+- function
+- primitive_types
+- structs
+- strings
+- enums
+- tests
+- modules
+- macros
+- move_semantics
+
+和附带的quiz
+
+## Day 3 2022/7/3
+
+### 阅读rCore 指导书
+
+阅读了今年适用于2022训练营的新指导书[rCore-Tutorial-Book 第三版](https://learningos.github.io/rust-based-os-comp2022/)
+
+完成了lab0-test1，环境搭建，通过观看往届第一个实验是去除宏指令完成裸机运行输出Hello,World!看来今年只能通过观看代码解决了！
+### Rust Learning
+
+继续了学习Rust,学习的内容如下：
+- 生命周期
+- 函数式编程: 闭包、迭代器
+- 深入类型
+- 智能指针
+- 循环引用与自引用
+- 错误处理
+
+做完了所有[rustling-exercise](os2022/my-rustlings/README.md),发现越往后做越难，一边hint，一边看圣经，一边debug，一边做。学了约等于没学，做起题来还是得从头看，尤其是错速处理部分。
+
+### OS Learning
+
+观看了第二次课程，获益匪浅
+
+-参考第三天总结[day3](daily_study/day3-learning.md)
+
+训练营强度还是很大的
+
+## Day 4 2022/7/4
+
+### Rust
+
+虽说题目做的差不多完了，但是学习Rust的脚步还没有停止，学习Rust的数据结构。Rust最特殊的一个地方(所有权，无需free，很安全)，Rust圣经里面关于这个的讲解太到位了!还有就是智能指针
+这都是要加深理解的地方。
+
+### OS Learning
+
+完成了第三次课的学习，在第二次课讲解实验环境和shell还有不同模式下不同功能下的OS，了解了这门课的学习目的，和要实现的东西。第三课要点在slide上面都有体现,主要为CSR寄存器和状态转换
+
+### 阅读rCore 指导书
+
+开始尝试去阅读第二章ch2的批处理系统相关内容，尝试去读懂代码了解内核精髓！并思考课后题
+
+-参考第四天总结[day4](daily_study/day4-learning.md)
+
+## Day 5 2022/7/5
+
+### Rust
+
+继续学习Rust语法，并尝试做第二部分习题，开始看源码
+
+### OS learning
+
+开始学习第四节课，开始了解任务（进程）相关知识
+
+### Risc-v
+
+继续学习计算机组成软硬件接口第二章知识
+
+
+### 晚上开会
+
+开幕式顺利召开
+
+-参考第三天总结[day5](daily_study/day5-learning.md)
+
+## Day 6 2022/7/6
+
+### Rust
+
+重新学习生命周期，开始做练习题[32 Rust Quizes](https://dtolnay.github.io/rust-quiz/1)
+
+
+### OS learning
+
+完成第五节课的学习，准备开始看ch3的实验和代码。
+
+### Risc-v
+
+学习Risc-v架构和计算机软硬件接口第三章知识
+
+
+
+## Day 7 2022/7/7
+
+### Rust
+
+对照圣经反复学习，这门语言门槛还是相当高的，的反复与编译器做对抗
+
+### OS learning
+
+观看第六节课视频，了解了页表机制，和与计算机组成原理的只是衔接，也了解了虚拟内存技术，覆盖技术和交换机制
+
+### Risc-v
+
+阅读Risc-v手册
+
+## Day 8 2022/7/8
+
+### Rust
+
+学习rust语法做一些数据结构的题目
+
+### OS learning
+
+观看第八节课视频，了解了各种调度机制，了解了单处理机调度各种算法
+
+### rcore
+
+继续看书ch3环节，准备做第一个实验
+
+参考今日笔记[day8](daily_study/day8-learning.md)
+
+## Day 9 2022/7/9
+
+### rcore
+
+看是着手做第一个实验,观看了第九次课程视频
+
+## Day 10 2022/7/10
+
+因为有事情较忙，所以进度暂停一天
+
+## Day 11 2022/7/11
+
+又重新观看了一边实验一的视频，了解了多道程序与分时多任务实验机制。
+
+又阅读了RISC-V操作手册
+
+参考今日笔记[day11](daily_study/day11-learning.md)
+
+## Day 12 2022/7/12
+
+今天完成了rcore ch3的实验，了解了多道程序OS原理与实践
+
+## Day 13 2022/7/13
+
+阅读rcore-tutorial的ch4-lab2的代码，并开始着手做实验。
+
+并开始写rcore-tutorial的实验报告，完成于[report-lab1](report/lab1.md)
+
+## Day 14 2022/7/14
+
+阅读了Risc-V的第十章，并梳理了特权架构的相关知识。
+
+重新看了看Rust的编程相关知识。
+
+
+## Day 15 2022/7/15
+
+完成对于rcore-tutorial的ch4的阅读
+
+观看了lab2的实验讲解视频
+
+## Day 16 2022/7/16
+
+rCore-tutorial中多级页表和超越物理内存的管理学习
+
+## Day 17 2022/7/17
+
+## Day 18 2022/7/18
+
+完成了rocre-tutorial中ch4的内容和实验。
+
+[lab2](daily_study/day19-learning-lab2.md)
+
+## Day 19 2022/7/19
+
+## Day 20 2022/7/20
+
+## Day 21 2022/7/21
+
+## Day 22 2022/7/22
+
+这几天看了助教的ch4相关视频加深了理解，开始着手做ch5的相关实验
+
+## Day 23 2022/7/23
+
+## Day 24 2022/7/24
+
+完成了对rcore ch5的学习和实验
+
+## Day 25 2022/7/25
+
+## Day 26 2022/7/26
+
+完成了对rcore ch6的学习和实验
+
+## Day 27 2022/7/27
+
+完成了对rcore ch7的学习
+
+## Day 28 2022/7/28
+
+## Day 29 2022/7/29
+
+## Day 30 2022/7/30
+
+## Day 31 2022/7/31
+
+完成了对ch8的学习和实验，大功告成！
+至少这次训练营是没有什么遗憾了
